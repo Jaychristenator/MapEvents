@@ -126,9 +126,3 @@ STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
-
-BASEMAP_CONSTS = {
-    'ACCESS_TOKEN': 'pk.eyJ1Ijoic29tZXVzZXJuYW1ld2hhdGlzdGhlcG9pbnQiLCJhIjoiY2o5NzJkb3czMDJuaTMybXF2MTk3ZTM1cyJ9.SoQvv0DNvw6j8170P6CBiw',
-    'MAP_URL': 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
-    'ATTRIBUTION': 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
-}
